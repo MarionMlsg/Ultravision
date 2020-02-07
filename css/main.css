@@ -15,7 +15,7 @@
   background-color: gold;
 }
 
-.COMPUTER {
+.section-title {
   font-family: Poppins;
   font-size: 38px;
   font-weight: 900;
@@ -24,7 +24,8 @@
   background-color: orange;
 }
 
-.ITSACOMPUTER {
+
+.sub-title {
   font-family: Poppins;
   font-size: 40px;
   font-weight: 900;
@@ -32,11 +33,11 @@
   color: var(--Ultravision-Black);
 }
 
-.BOITE2{
+.BOITE1-TEXT{
   width: 640px;
   height: 412px;
 }
-.title2 {
+.titreBOITE1 {
   width: 640px;
   height: 33px;
   font-family: Poppins;
