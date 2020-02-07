@@ -4,6 +4,13 @@
 * Global Styles
 * -------------
 */
+ body{
+   font-family: Poppins;
+ }
+
+ li {
+   font-size: 16px;
+ }
 
 
 .ULTRAVISION {
@@ -12,7 +19,9 @@
   font-weight: 900;
   text-align: center;
   color: #ffffff; 
-  background-color: gold;
+  background-color: #fcce00;
+  margin-block-start: 8px;
+  margin-block-end: 0px;
 }
 
 .section-title {
@@ -21,9 +30,18 @@
   font-weight: 900;
   text-align: center;
   color: #ffffff;
-  background-color: orange;
+  background-color: #fcce00;
+  margin-block-start: 8px;
+  margin-block-end: 0px; 
 }
 
+.selection-rouge {
+  width: 1440px;
+  height: 32px;
+  opacity: 0.81;
+  background-color: #e02020;
+  
+}
 
 .sub-title {
   font-family: Poppins;
