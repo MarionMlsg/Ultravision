@@ -193,7 +193,6 @@
     border-radius: 15px;
     margin-top: 30px;
     padding: 10px 36px 10px 36px;
-  
 }
 
 .titreBOITE4 {
@@ -268,8 +267,33 @@
   color: #ffffff;
 }
 
+.BOITEFIN {
+  background-color: black;
+}
 
 
+.ligne1{
+  display: flex;
+justify-content: space-between;
+margin-left: 34px;
+margin-right: 34px;
+margin-bottom: 32px;
+margin-top: 32px;
+}
+
+.ligne2{
+  display: flex;
+justify-content: space-between;
+margin-left: 34px;
+margin-right: 34px;
+}
+
+.ligne3{
+  display: flex;
+justify-content: space-between;
+margin-left: 34px;
+margin-right: 34px;
+}
   /* Link color */
 }
 
