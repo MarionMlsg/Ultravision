@@ -6,6 +6,11 @@
 */
  body{
    font-family: Poppins;
+  }
+
+.page {
+   max-width: 1024px;
+   margin: auto;
  }
 
  li {
@@ -107,6 +112,8 @@
   justify-content: space-between;
   flex-basis: 0;
   flex-grow: 1;
+  padding-left: 48px;
+  padding-right: 32px;
 }
 
 .BOITE2 {
@@ -114,6 +121,8 @@
   justify-content: space-between;
   flex-basis: 0;
   flex-grow: 1;
+  padding-left: 48px;
+  padding-right: 32px;
 }
 
 .BOITE1-TEXT {
@@ -129,11 +138,26 @@
 
 .BOITE1-IMG{
   background-color: #fcce00;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.BOITE1-IMG img {
+  mix-blend-mode: darken;
 }
 
 .BOITE2-IMG  {
   background-color: #ff6b00;
+  flex-basis: 0;
+  flex-grow: 1;
 }
+
+
+.BOITE2-IMG img {
+  mix-blend-mode: darken;
+}
+
+
 
 .button1 {
   font-family: Poppins;
@@ -169,7 +193,7 @@
     border-radius: 15px;
     margin-top: 30px;
     padding: 10px 36px 10px 36px;
-    float: right;
+  
 }
 
 .titreBOITE4 {
@@ -185,28 +209,66 @@
   color: #ffffff;
 }
 
+.BOITE3-IMG img {
+  mix-blend-mode: darken;
+}
+
+.BOITE4-IMG img {
+  mix-blend-mode: darken;
+}
+
+.BOITE5-IMG img {
+  mix-blend-mode: darken;
+}
+
 .sub-titleRED {
   opacity: 0.81;
   background-color: #e02020;
+  display: flex;
+  justify-content: space-between;
 }
 
 .sub-titleFUSHIA{
   opacity: 0.81;
   background-color: #b620e0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .sub-titlePURPLE {
   opacity: 0.81;
   background-color: #6236ff;
+  display: flex;
+  justify-content: space-between;
 }
 
-.BOITEBLACK {
-  background-color : black;
-  width: 1440px;
-  height: 2229px;
-  margin-block-start: 8px;
-  margin-block-end: 0px;
+
+.BOITE5-TEXT {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+  background-color: black;
 }
+
+.BOITE6-TITLE {
+  font-family: Poppins;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: #ffffff;
+  background-color: black;
+}
+
+.form-row {
+  background-color: black;
+  font-family: Poppins;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+
 
   /* Link color */
 }
