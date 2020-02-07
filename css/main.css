@@ -133,11 +133,12 @@
 .BOITE2-TEXT {
   max-width: 50%;
   padding-left: 0px;
-  padding-right: 48px;
+  padding-left: 48px;
+  padding-top: 48px;
 }
 
 .BOITE1-IMG{
-  background-color: #fcce00;
+  background: linear-gradient(#fcce00, #ffffff);
   flex-basis: 0;
   flex-grow: 1;
 }
@@ -150,6 +151,8 @@
   background-color: #ff6b00;
   flex-basis: 0;
   flex-grow: 1;
+  margin-top: 80px;
+  margin-bottom: 50px;
 }
 
 
