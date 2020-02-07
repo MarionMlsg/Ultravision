@@ -30,9 +30,11 @@
   font-weight: 900;
   text-align: center;
   color: #ffffff;
-  background-color: #fcce00;
+  background-color: #ff6b00;
   margin-block-start: 8px;
   margin-block-end: 0px; 
+  width: 1440px;
+  height: 64px;
 }
 
 .selection-rouge {
@@ -40,7 +42,26 @@
   height: 32px;
   opacity: 0.81;
   background-color: #e02020;
-  
+  margin-block-start: 8px;
+  margin-block-end: 0px;
+}
+
+.selection-fushia { 
+  width: 1440px;
+  height: 16px;
+  opacity: 0.81;
+  background-color: #b620e0;
+  margin-block-start: 8px;
+  margin-block-end: 0px;
+} 
+
+.selection-purple {
+  width: 1440px;
+  height: 8px;
+  opacity: 0.81;
+  background-color: #6236ff;
+  margin-block-start: 8px;
+  margin-block-end: 0px;
 }
 
 .sub-title {
@@ -51,27 +72,7 @@
   color: var(--Ultravision-Black);
 }
 
-.BOITE1-TEXT{
-  width: 640px;
-  height: 412px;
-}
 .titreBOITE1 {
-  width: 640px;
-  height: 33px;
-  font-family: Poppins;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center;
-  color: var(--Ultravision-Black);
-}
-
-.BOITE3 {
-  width: 654px;
-  height: 282px;
-}
-.title3 {
-  width: 654px;
-  height: 66px;
   font-family: Poppins;
   font-size: 24px;
   font-weight: bold;
@@ -86,58 +87,92 @@
   color: var(--Ultravision-Black);
 }
 
-.ADVANCE {
-  width: 1440px;
-  height: 56px;
-}
-
-
-.ADVANCEFEATURE {
+.titreBOITE2 {
   font-family: Poppins;
-  font-size: 40px;
+  font-size: 24px;
   font-weight: bold;
   text-align: center;
   color: var(--Ultravision-Black);
 }
 
-.RED {
-  width: 1440px;
-  height: 640px;
-}
-
-.FUSHIA {
-  width: 1440px;
-  height: 640px;
-}
-
-.PURPLE {
-  width: 1440px;
-  height: 640px;
-}
-
-.title4 {
-  width: 640px;
-  height: 45px;
+.corpsBOITE2 {
   font-family: Poppins;
-  font-size: 32px;
-  font-weight: bold;
-  color: #ffffff;
-}
-.corps1 {
-  width: 487px;
-  height: 66px;
-  font-family: Poppins;
-  font-size: 24px;
-  color: #ffffff;
+  font-size: 16px;
+  text-align: justify;
+  color: var(--Ultravision-Black);
 }
 
-.button {
-  width: 185px;
-  height: 45px;
+.BOITE1 {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.BOITE2 {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.BOITE1-TEXT {
+  max-width: 50%;
+  padding-left: 0px;
+  padding-right: 48px;
+}
+
+.BOITE2-TEXT {
+  max-width: 50%;
+  padding-left: 0px;
+  padding-right: 48px;
+}
+
+.BOITE1-IMG {
+  background-color: #fcce00;
+}
+
+.BOITE2-IMG  {
+  background-color: #ff6b00;
+}
+
+.button1 {
+  font-family: Poppins;
+  font-size: 20px;
+  text-align: center;
+  color: #fcce00;
+  border: solid 4px #fcce00;
   border-radius: 15px;
-  border: solid 4px #ffffff;
+  margin-top: 30px;
+  padding: 10px 36px 10px 36px;
+  float: right;
 }
 
+
+.button2 {
+  font-family: Poppins;
+  font-size: 20px;
+  text-align: center;
+  color: #ff6b00;
+  border: solid 4px #ff6b00;
+  border-radius: 15px;
+  margin-top: 30px;
+  padding: 10px 36px 10px 36px;
+  float: right;
+}
+
+.button3 {
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border: solid 4px #white;
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 10px 36px 10px 36px;
+    float: right;
+  }
+}
   /* Link color */
 }
 
