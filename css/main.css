@@ -121,14 +121,13 @@
   padding-left: 0px;
   padding-right: 48px;
 }
-
 .BOITE2-TEXT {
   max-width: 50%;
   padding-left: 0px;
   padding-right: 48px;
 }
 
-.BOITE1-IMG {
+.BOITE1-IMG{
   background-color: #fcce00;
 }
 
@@ -166,13 +165,49 @@
     font-size: 20px;
     text-align: center;
     color: white;
-    border: solid 4px #white;
+    border: solid 4px white;;
     border-radius: 15px;
     margin-top: 30px;
     padding: 10px 36px 10px 36px;
     float: right;
-  }
 }
+
+.titreBOITE4 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.corpsBOITE4 {
+  font-family: Poppins;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.sub-titleRED {
+  opacity: 0.81;
+  background-color: #e02020;
+}
+
+.sub-titleFUSHIA{
+  opacity: 0.81;
+  background-color: #b620e0;
+}
+
+.sub-titlePURPLE {
+  opacity: 0.81;
+  background-color: #6236ff;
+}
+
+.BOITEBLACK {
+  background-color : black;
+  width: 1440px;
+  height: 2229px;
+  margin-block-start: 8px;
+  margin-block-end: 0px;
+}
+
   /* Link color */
 }
 
