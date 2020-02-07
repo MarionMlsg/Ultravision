@@ -225,6 +225,9 @@
   background-color: #e02020;
   display: flex;
   justify-content: space-between;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 63px;
 }
 
 .sub-titleFUSHIA{
@@ -232,6 +235,9 @@
   background-color: #b620e0;
   display: flex;
   justify-content: space-between;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 63px;
 }
 
 .sub-titlePURPLE {
@@ -239,8 +245,10 @@
   background-color: #6236ff;
   display: flex;
   justify-content: space-between;
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 63px;
 }
-
 
 .BOITE5-TEXT {
   font-family: Poppins;
@@ -258,6 +266,7 @@
   text-align: center;
   color: #ffffff;
   background-color: black;
+  padding-top: 64px;
 }
 
 .form-row {
@@ -269,6 +278,7 @@
 
 .BOITEFIN {
   background-color: black;
+  padding-top: 64px;
 }
 
 
@@ -286,6 +296,7 @@ margin-top: 32px;
 justify-content: space-between;
 margin-left: 34px;
 margin-right: 34px;
+margin-bottom: 32px;
 }
 
 .ligne3{
@@ -296,6 +307,7 @@ margin-right: 34px;
 }
   /* Link color */
 }
+
 
 a:hover {
   /* Link color on mouse over */
