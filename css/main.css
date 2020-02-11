@@ -148,7 +148,7 @@
 }
 
 .BOITE2-IMG  {
-  background-color: #ff6b00;
+  background: linear-gradient(#ff6b00 , #ffffff) ; 
   flex-basis: 0;
   flex-grow: 1;
   margin-top: 80px;
@@ -225,7 +225,7 @@
 
 .sub-titleRED {
   opacity: 0.81;
-  background-color: #e02020;
+  background: linear-gradient(#e02020 , #ffffff);
   display: flex;
   justify-content: space-between;
   padding-right: 60px;
@@ -235,7 +235,7 @@
 
 .sub-titleFUSHIA{
   opacity: 0.81;
-  background-color: #b620e0;
+  background: linear-gradient(#b620e0, #ffffff);
   display: flex;
   justify-content: space-between;
   padding-right: 60px;
@@ -245,7 +245,7 @@
 
 .sub-titlePURPLE {
   opacity: 0.81;
-  background-color: #6236ff;
+  background: linear-gradient( #6236ff, #ffffff);
   display: flex;
   justify-content: space-between;
   padding-right: 60px;
